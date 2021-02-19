@@ -5374,10 +5374,10 @@ webpack-sources@^2.1.1:
     source-list-map "^2.0.1"
     source-map "^0.6.1"
 
-webpack@^5.18.0:
-  version "5.18.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.18.0.tgz#bbcf13094aa0da0534d513f27d7ee72d74e499c6"
-  integrity sha512-RmiP/iy6ROvVe/S+u0TrvL/oOmvP+2+Bs8MWjvBwwY/j82Q51XJyDJ75m0QAGntL1Wx6B//Xc0+4VPP/hlNHmw==
+webpack@^5.23.0:
+  version "5.23.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.23.0.tgz#9ed57e9a54b267b3549899271ad780cddc6ee316"
+  integrity sha512-RC6dwDuRxiU75F8XC4H08NtzUrMfufw5LDnO8dTtaKU2+fszEdySCgZhNwSBBn516iNaJbQI7T7OPHIgCwcJmg==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.46"
@@ -5397,7 +5397,6 @@ webpack@^5.18.0:
     loader-runner "^4.2.0"
     mime-types "^2.1.27"
     neo-async "^2.6.2"
-    pkg-dir "^5.0.0"
     schema-utils "^3.0.0"
     tapable "^2.1.1"
     terser-webpack-plugin "^5.1.1"
