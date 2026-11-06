@@ -772,7 +772,7 @@ jobs:
           mypy Browser browser_batteries atest/library --exclude .venv --config-file Browser/mypy.ini --no-error-summary --show-column-numbers > mypy.txt || [ $? -eq 1 ]
       - name: Scan
         if: env.SONAR_TOKEN != ''
-        uses: SonarSource/sonarqube-scan-action@4d1dc0c91ee400dcf8a6dddf2f705ac36542e304 # v8.4.0
+        uses: SonarSource/sonarqube-scan-action@e805d875275f728fac1885b413934be6d7c63f65 # v8.4.1
 
   # Everything green on main becomes the wheels at
   # https://github.com/MarketSquare/robotframework-browser/releases/tag/nightly
